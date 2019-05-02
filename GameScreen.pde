@@ -4,7 +4,9 @@ class GameScreen extends Screen {
     bGround = c;
   }
   
+  @Override
   public void show() {
     background(bGround);
   }
+  
 }

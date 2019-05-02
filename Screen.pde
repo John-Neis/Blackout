@@ -1,5 +1,6 @@
 abstract class Screen {
   protected color bGround;
-  abstract void show();
-  
+  void show() {}
+  void checkClick() {}
+  void checkKey() {}
 }

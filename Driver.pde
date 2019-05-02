@@ -19,12 +19,12 @@ void draw() {
 
 void keyPressed() {
   if(scnCount == 0) {
-    scnCount++;
+    scrnManager[scnCount].checkKey();
   }
 }
 
 void mousePressed() {
   if(scnCount == 0) {
-    scnCount++;
+    scrnManager[scnCount].checkClick();
   }
 }
